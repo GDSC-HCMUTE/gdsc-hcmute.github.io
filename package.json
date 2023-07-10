@@ -1,6 +1,6 @@
 {
-  "name": "tiennhm-github-io",
-  "version": "0.0.0",
+  "name": "gdsc-hcmute.github.io",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",

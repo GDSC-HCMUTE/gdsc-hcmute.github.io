@@ -30,26 +30,22 @@ function HomepageHeader() {
     <header className={clsx('hero hero--primary', styles.heroBanner, styles.backgroundImage)}>
       <div className={clsx('container', styles.cardContainer)}>
         <div className={clsx(styles.cardInfo)}>
-          <Image img='/img/TienNHM.webp' alt='TienNHM' about='TienNHM' className={clsx(styles.cardInfoImage)}
+          <Image img='/img/logo/gdsc.svg' alt='GDSC-HCMUTE' about='GDSC-HCMUTE' className={clsx(styles.cardInfoImage)}
             width={150} height={150} loading='lazy' decoding='async'/>
 
           <h1 className="hero__title">{siteConfig.title}</h1>
           <h2 className="hero__subtitle">{siteConfig.tagline}</h2>
 
           <div style={{margin: '1rem'}}>
-            <Link className={clsx('button button--primary')} title='CV' to='/cv'>
-                🪪 Résumé 🧑‍💻
+            <Link className={clsx('button button--primary')} title='CV' to='/'>
+                🪪🧑‍💻
             </Link>
           </div>
           
           <div className={clsx(styles.buttonsGroup)}>
             <ContactItem icon={faEnvelope} contact={CONTACTS.Email} title={'Email'}/>
-            <ContactItem icon={faPhone} contact={CONTACTS.Phone} title={'Phone'}/>
             <ContactItem icon={faFacebook} contact={CONTACTS.Facebook} title={'Facebook'}/>
             <ContactItem icon={faGithub} contact={CONTACTS.Github} title={'Github'}/>
-            <ContactItem icon={faLinkedin} contact={CONTACTS.Linkedin} title={'Linkedin'}/>
-            <ContactItem icon={faYoutube} contact={CONTACTS.Youtube} title={'Youtube'}/>
-            <ContactItem icon={faSkype} contact={CONTACTS.Skype} title={'Skype'}/>
           </div>
         </div>
       </div>
