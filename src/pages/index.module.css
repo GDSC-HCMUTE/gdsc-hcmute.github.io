@@ -23,7 +23,7 @@
 }
 
 .backgroundImage {
-  background-image: url('/img/background/cat-sunset-city-min.webp');
+  background-image: url('/img/background/gdsc.png');
   background-position: bottom right;
   background-size: cover;
   height: 100vh;
@@ -38,7 +38,7 @@
 
 .cardInfo {
   padding: 2rem;
-  background-color: rgba(255, 255, 255, 0.75);
+  background-color: rgba(213, 213, 213, 0.805);
   border-radius: 2rem;
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
   width: -moz-fit-content;
