@@ -58,8 +58,8 @@ const footerLinks = [
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-    title: 'GDSC HCMUTE',
-    tagline: 'Google Developer Student Clubs',
+    title: 'Google Developer Student Clubs',
+    tagline: 'HCMC University of Technology and Education',
     favicon: 'img/favicon.ico',
 
     // Set the production url of your site here
