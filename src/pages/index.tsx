@@ -6,8 +6,8 @@ import Layout from '@theme/Layout';
 import Image from '@theme/IdealImage';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebook, faGithub, faLinkedin,faYoutube, faSkype } from '@fortawesome/free-brands-svg-icons'
-import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
+import { faFacebook, faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope, faGlobe } from '@fortawesome/free-solid-svg-icons'
 import styles from './index.module.css';
 import { CONTACTS } from '@site/src/data/contacts';
 
@@ -46,6 +46,7 @@ function HomepageHeader() {
             <ContactItem icon={faEnvelope} contact={CONTACTS.Email} title={'Email'}/>
             <ContactItem icon={faFacebook} contact={CONTACTS.Facebook} title={'Facebook'}/>
             <ContactItem icon={faGithub} contact={CONTACTS.Github} title={'Github'}/>
+            <ContactItem icon={faGlobe} contact={CONTACTS.Website} title={'Website'}/>
           </div>
         </div>
       </div>

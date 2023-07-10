@@ -5,7 +5,7 @@ type Contact = {
 
 export const CONTACTS = {
   Facebook: {
-    link: 'https://www.facebook.com/01.tien/',
+    link: 'https://www.facebook.com/gdsc.hcmute',
     icon: require('@site/static/img/logo/facebook.svg').default,
   } as Contact,
   Github: {
@@ -15,5 +15,9 @@ export const CONTACTS = {
   Email: {
     link: 'mailto:dsc.hcmute@gmail.com',
     icon: require('@site/static/img/logo/email.svg').default,
+  } as Contact,
+  Website: {
+    link: 'https://gdsc.community.dev/ho-chi-minh-city-university-of-technology-and-education-hcmute/',
+    icon: require('@site/static/img/logo/www.svg').default,
   } as Contact,
 }
