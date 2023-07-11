@@ -29,7 +29,7 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero', styles.heroBanner, styles.backgroundImage)}>
       <div className={clsx('container', styles.cardContainer)}>
-        <div className={clsx(styles.cardInfo)}>
+        {/* <div className={clsx(styles.cardInfo)}>
           <Image img='/img/logo/gdsc.svg' alt='GDSC-HCMUTE' about='GDSC-HCMUTE' className={clsx(styles.cardInfoImage)}
             width={150} height={150} loading='lazy' decoding='async'/>
 
@@ -48,7 +48,7 @@ function HomepageHeader() {
             <ContactItem icon={faGithub} contact={CONTACTS.Github} title={'Github'}/>
             <ContactItem icon={faGlobe} contact={CONTACTS.Website} title={'Website'}/>
           </div>
-        </div>
+        </div> */}
       </div>
     </header>
   );
@@ -59,7 +59,7 @@ export default function Home(): JSX.Element {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Middle Fullstack Web Developer from Viet Nam">
+      description={`${siteConfig.title}`}>
       <HomepageHeader />
       <main>
         {/* <HomepageFeatures /> */}
