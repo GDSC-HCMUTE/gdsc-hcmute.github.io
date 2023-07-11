@@ -23,7 +23,7 @@
 }
 
 .backgroundImage {
-  background-image: url('/img/background/gdsc.png');
+  background-image: url('/static/img/background/gdsc-background.svg');
   background-position: bottom right;
   background-size: cover;
   height: 100vh;

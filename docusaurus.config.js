@@ -27,6 +27,10 @@ const footerLinks = [
                 label: 'Facebook',
                 href: 'https://www.facebook.com/gdsc.hcmute',
             },
+            {
+                label: 'Google Developer Student Clubs',
+                href: 'https://gdsc.community.dev/ho-chi-minh-city-university-of-technology-and-education-hcmute/',
+            },
             // {
             //     label: 'Youtube',
             //     href: 'https://www.youtube.com/TienNguyen09',
@@ -45,12 +49,8 @@ const footerLinks = [
                 href: 'https://github.com/GDSC-HCMUTE',
             },
             {
-                label: 'Google for Developers',
-                href: 'https://gdsc.community.dev/ho-chi-minh-city-university-of-technology-and-education-hcmute/',
-            },
-            {
                 label: 'Email',
-                href: 'dsc.hcmute@gmail.com',
+                href: 'mailto:dsc.hcmute@gmail.com',
             },
         ],
     },
@@ -189,7 +189,7 @@ const config = {
             },
             footer: {
                 style: 'light',
-                // links: footerLinks,
+                links: footerLinks,
                 copyright: `Copyright © ${new Date().getFullYear()} GDSC-HCMUTE.`,
             },
             prism: {
