@@ -108,7 +108,7 @@ const config = {
                     editUrl: `https://github.com/${organizationName}/${projectName}/tree/master`,
                     postsPerPage: 5,
                     blogSidebarCount: 'ALL',
-                    blogSidebarTitle: 'All our posts',
+                    blogSidebarTitle: 'Tất cả bài viết',
                     blogTitle: 'Blog',
                     blogDescription: 'Blog của GDSC-HCMUTE',
                     blogListComponent: '@theme/BlogListPage',
