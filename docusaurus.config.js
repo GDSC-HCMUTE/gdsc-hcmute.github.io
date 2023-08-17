@@ -8,21 +8,21 @@ const organizationName = "GDSC-HCMUTE";
 const projectName = "GDSC-HCMUTE.github.io";
 const footerLinks = [
     {
-        title: 'Docs',
+        title: 'Resources',
         items: [
             {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Blog',
+                to: '/blog',
+            },
+            {
+                label: 'Showcase',
+                to: '/showcase',
             },
         ],
     },
     {
         title: 'Community',
         items: [
-            // {
-            //     label: 'LinkedIn',
-            //     href: 'https://www.linkedin.com/in/tien-nhm',
-            // },
             {
                 label: 'Facebook',
                 href: 'https://www.facebook.com/gdsc.hcmute',
@@ -31,19 +31,15 @@ const footerLinks = [
                 label: 'Google Developer Student Clubs',
                 href: 'https://gdsc.community.dev/ho-chi-minh-city-university-of-technology-and-education-hcmute/',
             },
-            // {
-            //     label: 'Youtube',
-            //     href: 'https://www.youtube.com/TienNguyen09',
-            // },
+            {
+                label: 'Discord',
+                href: 'https://discord.gg/7nx55YxuES',
+            },
         ],
     },
     {
         title: 'More',
         items: [
-            {
-                label: 'Blog',
-                to: '/blog',
-            },
             {
                 label: 'GitHub',
                 href: 'https://github.com/GDSC-HCMUTE',
