@@ -16,6 +16,8 @@ image: https://v1.screenshot.11ty.dev/https%3A%2F%2Fwww.cloudskillsboost.google%
 
 Google gần đây đã đưa ra một lộ trình học tập mới về Generative AI. Chương trình giảng dạy bao gồm 10 khóa học nhằm giới thiệu về trí tuệ nhân tạo và học máy nói chung, Generative AI nói riêng.
 
+<!--truncate-->
+
 Link: https://www.cloudskillsboost.google/journeys/118
 
 <img src="https://v1.screenshot.11ty.dev/https%3A%2F%2Fwww.cloudskillsboost.google%2Fjourneys%2F118/opengraph/" loading='lazy' decoding='async'/>
@@ -84,3 +86,10 @@ Khóa học này hướng dẫn bạn cách tạo mô hình chú thích hình �
 Khóa học này giới thiệu Generative AI Studio, một sản phẩm trên Vertex AI, giúp bạn tạo nguyên mẫu và tùy chỉnh các mô hình AI tổng quát để bạn có thể sử dụng khả năng của chúng trong các ứng dụng của mình. Trong khóa học này, bạn tìm hiểu Generative AI Studio là gì, các tính năng và tùy chọn của nó cũng như cách sử dụng nó bằng cách xem qua các bản demo của sản phẩm. Cuối cùng, bạn sẽ có một bài lab thực hành để áp dụng những gì bạn đã học và một bài quiz để kiểm tra kiến ​​thức của bạn.
 
 <img src="https://v1.screenshot.11ty.dev/https%3A%2F%2Fwww.cloudskillsboost.google%2Fcourse_templates%2F552/opengraph/" loading='lazy' decoding='async'/>
+
+
+Trên đây là toàn bộ nội dung của chương trình học tập mới về Generative AI của Google. Hy vọng nó sẽ giúp ích cho các bạn.
+
+:::note
+Mọi thắc mắc về nội dung bài viết, các bạn có thể comment bên dưới hoặc liên hệ với chúng mình qua [Facebook](https://www.facebook.com/gdsc.hcmute) nhé!
+:::
