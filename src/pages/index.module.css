@@ -23,8 +23,8 @@
 }
 
 .backgroundImage {
-  background-image: url('/img/background/cat-sunset-city-min.webp');
-  background-position: bottom right;
+  background-image: url('/static/img/background/background-2023.png');
+  background-position: center;
   background-size: cover;
   height: 100vh;
 }
