@@ -5,31 +5,19 @@ type Contact = {
 
 export const CONTACTS = {
   Facebook: {
-    link: 'https://www.facebook.com/01.tien/',
+    link: 'https://www.facebook.com/gdsc.hcmute',
     icon: require('@site/static/img/logo/facebook.svg').default,
   } as Contact,
   Github: {
-    link: 'https://github.com/TienNHM',
+    link: 'https://github.com/GDSC-HCMUTE',
     icon: require('@site/static/img/logo/github.svg').default,
   } as Contact,
-  Linkedin: {
-    link: 'https://www.linkedin.com/in/tien-nhm/',
-    icon: require('@site/static/img/logo/linkedin.svg').default,
-  } as Contact,
   Email: {
-    link: 'mailto:tiennhm.it@gmail.com',
+    link: 'mailto:dsc.hcmute@gmail.com',
     icon: require('@site/static/img/logo/email.svg').default,
   } as Contact,
-  Phone: {
-    link: 'tel:+84388963345',
-    icon: require('@site/static/img/logo/phone.svg').default,
-  } as Contact,
-  Skype: {
-    link: 'https://join.skype.com/invite/ybhXQOv30y5F',
-    icon: require('@site/static/img/logo/skype.svg').default,
-  } as Contact,
-  Youtube: {
-    link: 'https://www.youtube.com/TienNguyen09',
-    icon: require('@site/static/img/logo/youtube.svg').default,
+  Website: {
+    link: 'https://gdsc.community.dev/ho-chi-minh-city-university-of-technology-and-education-hcmute/',
+    icon: require('@site/static/img/logo/www.svg').default,
   } as Contact,
 }

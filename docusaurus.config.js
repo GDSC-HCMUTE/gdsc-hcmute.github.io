@@ -4,15 +4,19 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
-const organizationName = "TienNHM";
-const projectName = "tiennhm.github.io";
+const organizationName = "GDSC-HCMUTE";
+const projectName = "GDSC-HCMUTE.github.io";
 const footerLinks = [
     {
-        title: 'Docs',
+        title: 'Resources',
         items: [
             {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Blog',
+                to: '/blog',
+            },
+            {
+                label: 'Showcase',
+                to: '/showcase',
             },
         ],
     },
@@ -20,16 +24,16 @@ const footerLinks = [
         title: 'Community',
         items: [
             {
-                label: 'LinkedIn',
-                href: 'https://www.linkedin.com/in/tien-nhm',
-            },
-            {
                 label: 'Facebook',
-                href: 'https://www.facebook.com/01.tien',
+                href: 'https://www.facebook.com/gdsc.hcmute',
             },
             {
-                label: 'Youtube',
-                href: 'https://www.youtube.com/TienNguyen09',
+                label: 'Google Developer Student Clubs',
+                href: 'https://gdsc.community.dev/ho-chi-minh-city-university-of-technology-and-education-hcmute/',
+            },
+            {
+                label: 'Discord',
+                href: 'https://discord.gg/7nx55YxuES',
             },
         ],
     },
@@ -37,20 +41,12 @@ const footerLinks = [
         title: 'More',
         items: [
             {
-                label: 'Blog',
-                to: '/blog',
-            },
-            {
                 label: 'GitHub',
-                href: 'https://github.com/TienNHM',
-            },
-            {
-                label: 'Google for Developers',
-                href: 'https://g.dev/TienNHM',
+                href: 'https://github.com/GDSC-HCMUTE',
             },
             {
                 label: 'Email',
-                href: 'mailto:tiennhm.it@gmail.com',
+                href: 'mailto:dsc.hcmute@gmail.com',
             },
         ],
     },
@@ -58,8 +54,8 @@ const footerLinks = [
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-    title: 'TienNHM',
-    tagline: 'Middle Fullstack Developer',
+    title: 'Google Developer Student Clubs',
+    tagline: 'HCMC University of Technology and Education',
     favicon: 'img/favicon.ico',
 
     // Set the production url of your site here
@@ -112,9 +108,9 @@ const config = {
                     editUrl: `https://github.com/${organizationName}/${projectName}/tree/master`,
                     postsPerPage: 5,
                     blogSidebarCount: 'ALL',
-                    blogSidebarTitle: 'All our posts',
+                    blogSidebarTitle: 'Tất cả bài viết',
                     blogTitle: 'Blog',
-                    blogDescription: 'Blog của TienNHM',
+                    blogDescription: 'Blog của GDSC-HCMUTE',
                     blogListComponent: '@theme/BlogListPage',
                     blogPostComponent: '@theme/BlogPostPage',
                     blogTagsListComponent: '@theme/BlogTagsListPage',
@@ -155,12 +151,12 @@ const config = {
         /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
         ({
             // Replace with your project's social card
-            image: 'img/TienNHM-project.webp',
+            image: 'img/gdsc-hcmute-social-card.jpg',
             navbar: {
-                title: 'TienNHM',
+                // title: 'GDSC-HCMUTE',
                 logo: {
-                    alt: 'TienNHM',
-                    src: 'img/TienNHM-min.webp',
+                    alt: 'GDSC-HCMUTE',
+                    src: 'img/logo/gdsc-hcmute.png',
                     height: 40,
                 },
                 items: [
@@ -168,15 +164,15 @@ const config = {
                         type: 'docSidebar',
                         sidebarId: 'tutorialSidebar',
                         position: 'left',
-                        label: '✨Tutorial',
+                        label: 'Tutorial',
                     },
-                    { to: '/blog', label: '🗒️Blog', position: 'left' },
-                    { to: '/showcase', label: '📦Showcase', position: 'left' },
+                    { to: '/blog', label: 'Blog', position: 'left' },
+                    { to: '/showcase', label: 'Showcase', position: 'left' },
                     // { to: '/cv', label: '🪪CV', position: 'left' },
-                    { to: '/community', label: '❤️‍🔥Community', position: 'left' },
-                    { to: '/contact', label: '📧Contact', position: 'left' },
+                    { to: '/community', label: 'Community', position: 'left' },
+                    { to: '/contact', label: 'Contact', position: 'left' },
                     {
-                        href: 'https://github.com/TienNHM',
+                        href: 'https://github.com/GDSC-HCMUTE',
                         // label: 'GitHub',
                         position: 'right',
                         className: "header-github-link",
@@ -189,15 +185,15 @@ const config = {
             },
             footer: {
                 style: 'light',
-                // links: footerLinks,
-                copyright: `Copyright © ${new Date().getFullYear()} TienNHM.`,
+                links: footerLinks,
+                copyright: `Copyright © ${new Date().getFullYear()} GDSC-HCMUTE.`,
             },
             prism: {
                 theme: lightCodeTheme,
                 darkTheme: darkCodeTheme,
             },
             metadata: [
-                { name: 'keywords', content: 'TienNHM, Nguyễn Huỳnh Minh Tiến, blog, coding, tools' },
+                { name: 'keywords', content: 'GDSC-HCMUTE, Google Developer Student Clubs, blog, coding, tools' },
             ]
         }),
 };

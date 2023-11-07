@@ -9,10 +9,10 @@ export default function GiscusComponent() {
 
   return (
     <Giscus    
-      repo="TienNHM/tiennhm.github.io"
-      repoId="R_kgDOJmnUUw"
+      repo="GDSC-HCMUTE/gdsc-hcmute.github.io"
+      repoId="R_kgDOJ59bgA"
       category="General"
-      categoryId="DIC_kwDOJmnUU84CWtld"
+      categoryId="DIC_kwDOJ59bgM4CXzEm"
       mapping="title"
       term="Discussion"
       strict="1"

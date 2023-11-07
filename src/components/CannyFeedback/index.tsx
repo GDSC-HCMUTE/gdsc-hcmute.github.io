@@ -7,7 +7,7 @@ import Layout from '@theme/Layout';
 import cannyScript from './cannyScript';
 import styles from './styles.module.css';
 
-const BOARD_TOKEN = '441a2b5d-d4e2-8f42-81ff-249650e7b70b';
+const BOARD_TOKEN = 'ce155159-8b93-58bb-5501-431711562b7e';
 const TITLE = translate({message: 'Contact'});
 const DESCRIPTION = translate({
   message: 'Contact me',
