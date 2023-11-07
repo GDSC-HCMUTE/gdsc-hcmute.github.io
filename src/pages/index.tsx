@@ -24,10 +24,12 @@ function ContactItem({icon, contact, title}) {
   );
 }
 
+const backgroundImage = 'img/background/background-2023.webp';
+
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <header className={clsx('hero', styles.heroBanner, styles.backgroundImage)}>
+    <header className={clsx('hero', styles.heroBanner, styles.backgroundImage)} style={{backgroundImage: `url(${backgroundImage})`}}>
       <div className={clsx('container', styles.cardContainer)}>
         {/* <div className={clsx(styles.cardInfo)}>
           <Image img='/img/logo/gdsc.svg' alt='GDSC-HCMUTE' about='GDSC-HCMUTE' className={clsx(styles.cardInfoImage)}
