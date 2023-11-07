@@ -4,10 +4,23 @@
         <title>Google Developer Student Clubs Blog</title>
         <link>https://GDSC-HCMUTE.github.io/en/blog</link>
         <description>Google Developer Student Clubs Blog</description>
-        <lastBuildDate>Thu, 10 Aug 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 02 Nov 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[TSQL Learning - by gdckpvp]]></title>
+            <link>https://GDSC-HCMUTE.github.io/en/blog/tsql-learning</link>
+            <guid>https://GDSC-HCMUTE.github.io/en/blog/tsql-learning</guid>
+            <pubDate>Thu, 02 Nov 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Góc chia sẽ kinh nghiệm học SQL command line.]]></description>
+            <content:encoded><![CDATA[<p align="right"><img loading="lazy" src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2FGDSC-HCMUTE.github.io%2Fblog%2Ftsql-learning&amp;label=⚪Views&amp;labelColor=%2337d67a&amp;countColor=%23555555&amp;style=flat&amp;labelStyle=upper" decoding="async" class="img_ev3q"></p><blockquote><p>Góc chia sẽ kinh nghiệm học SQL command line.</p></blockquote><p>Hí ae, trong buổi nói chuyện cùng với các bạn mới vào câu lạc bộ thì mình có nhận ra các bạn gặp đôi chút khó khăn trong việc học môn cơ sở dữ liệu thì tiện đây mình cũng xin chia sẽ về tài liệu giúp mình up level từ một đứa đến câu lệnh &lt;Select * &gt; cơ bản cũng phải google trở thành người không ngán câu query nào.</p><p>Dưới đây là link RepoGit mà mình đã tạo nhằm giúp các bạn tiện theo dõi và có thể chủ động học hơn.</p><p>Link Github: <a href="https://github.com/gdckpvp/TSQL-Learning" target="_blank" rel="noopener noreferrer">https://github.com/gdckpvp/TSQL-Learning</a></p><p>Mong chút kinh nghiệm nhỏ bé này sẽ giúp được các bạn ❤.</p><img loading="lazy" src="https://raw.githubusercontent.com/gdckpvp/TSQL-Learning/main/ERD.webp" decoding="async" class="img_ev3q">]]></content:encoded>
+            <category>tsql</category>
+            <category>sql</category>
+            <category>sql server</category>
+            <category>learning</category>
+            <category>gdsc_hcmute_share</category>
+        </item>
         <item>
             <title><![CDATA[Generative AI learning path - by Google]]></title>
             <link>https://GDSC-HCMUTE.github.io/en/blog/google-generative-ai-courses</link>
